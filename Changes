@@ -1,0 +1,11 @@
+nat ipv4 share 0.2 (2021/02/28):
+    不支持ipv6，如果要禁止ipv6请自行关闭设备的ipv6
+    修复核心启动成功，但是显示启动失败的bug
+    添加放行IP的功能
+    修复dns跳点
+
+nat ipv4 share 0.3(2021/04/09)
+    添加cns模式
+    启动的时候关闭selinux，启动后恢复原来的selinux值
+    去除部分错误输出
+    安卓机，脚本请放到data，不要放system
